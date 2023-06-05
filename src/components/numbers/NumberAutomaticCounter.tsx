@@ -9,7 +9,7 @@ export const NumberAutomaticCounter = () => {
 		const ref = setInterval(() => setCount(currentCount => currentCount + increment), 1000);
 
 		return () => clearInterval(ref);
-	}, [increment])
+	}, [])
 
 
 	function handleInputChange(event: ChangeEvent<HTMLInputElement>) {
