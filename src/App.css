@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.hide {
+    display: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +15,22 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.NumberCount {
+  background-color: lightblue;
+}
+
+.PrintArray {
+  background-color: lightcoral;
+}
+
+.DynamicTable {
+  background-color: lightgreen;
+}
+
+.DynamicTable table {
+  margin: 0 auto;
 }
 
 .App-header {
